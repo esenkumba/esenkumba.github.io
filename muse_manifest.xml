@@ -1,0 +1,47 @@
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="esenkumba.github.io" resolutions="1x" timestamp="1540316745059">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="index.css" crc="388227846" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4148063285" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="172512987" ref="index"/>
+    <file name="jquery.watch.js" crc="437028206" ref="index"/>
+    <file name="require.js" crc="4159430777" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="u165-5.png" crc="365403265" ref="index"/>
+    <file name="u526-4.png" crc="125070679" ref="index"/>
+    <file name="u169-10.png" crc="4177610445" ref="index"/>
+    <file name="pasted-svg-1360973x1202.svg" crc="327590030" seo="true" ref="index"/>
+    <file name="pasted svg 1360973x1202_poster_.png" crc="180942557" ref="index"/>
+    <file name="u181-14.png" crc="378047585" ref="index"/>
+    <file name="u175-4.png" crc="3904780962" ref="index"/>
+    <file name="u390-9.png" crc="261090366" ref="index"/>
+    <file name="u385-4.png" crc="3801823829" ref="index"/>
+    <file name="cgi_.png" crc="386152505" seo="true" ref="index"/>
+    <file name="cgi_2.png" crc="415911257" seo="true" ref="index"/>
+    <file name="pasted-svg-175761x1169.svg" crc="89614525" seo="true" ref="index"/>
+    <file name="pasted svg 175761x1169_poster_.png" crc="233033583" ref="index"/>
+    <file name="u559-10.png" crc="356159740" ref="index"/>
+    <file name="u556-7.png" crc="3825561579" ref="index"/>
+    <file name="u596-9.png" crc="4118901925" ref="index"/>
+    <file name="u593-4.png" crc="393996676" ref="index"/>
+    <file name="character_1.png" crc="147584495" seo="true" ref="index"/>
+    <file name="character_2.png" crc="4140071383" seo="true" ref="index"/>
+    <file name="pasted-svg-943439x800.svg" crc="276533620" seo="true" ref="index"/>
+    <file name="pasted svg 943439x800_poster_.png" crc="3884829357" ref="index"/>
+    <file name="pasted-svg-71429x249.svg" crc="509538039" seo="true" ref="index"/>
+    <file name="pasted svg 71429x249_poster_.png" crc="3803398402" ref="index"/>
+    <file name="u688-4-a.png" crc="163248636" ref="index"/>
+    <file name="u694-4.png" crc="479981191" ref="index"/>
+    <file name="u709-4.png" crc="3842153207" ref="index"/>
+    <file name="u724-4.png" crc="191036895" ref="index"/>
+    <file name="pasted-svg-111111x35.svg" crc="209199863" seo="true" ref="index"/>
+    <file name="pasted svg 111111x35_poster_.png" crc="3935229296" ref="index"/>
+    <file name="bg.jpg" crc="4222458711" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4014734384" seo="true" mt="1540316618466" redirect="true"/>
+</manifest>
