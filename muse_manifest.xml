@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="esenkumba.github.io" resolutions="1x" timestamp="1540825204792">
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="esenkumba.github.io" resolutions="1x" timestamp="1540825881778">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="index.css" crc="3980208251" ref="index"/>
@@ -14,7 +14,6 @@
   <folder name="images">
     <file name="favicon.ico" crc="4169485041" ref="phone>index"/>
     <file name="scroll gif.gif" crc="3769901026" seo="true" ref="phone>index:index"/>
-    <file name="3d visualizations490x490.png" crc="370346768" seo="true" ref="phone>index"/>
     <file name="tropical delite gif.gif" crc="322995547" seo="true" ref="phone>index:index"/>
     <file name="3d branding435x372.png" crc="4213727572" seo="true" ref="phone>index"/>
     <file name="turntable_web.gif" crc="536367992" seo="true" ref="phone>index:index"/>
@@ -24,12 +23,13 @@
     <file name="3d visualizations.png" crc="4096769561" seo="true" ref="index"/>
     <file name="3d branding.png" crc="86311223" seo="true" ref="index"/>
     <file name="rofile pic.png" crc="464508522" seo="true" ref="index"/>
+    <file name="3d visualizations456x456.png" crc="280142943" seo="true" ref="phone>index"/>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="233776313" ref="phone>index"/>
+      <file name="index.css" crc="475146123" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="18280459" seo="true" mt="1540825128852" redirect="true"/>
+    <file name="index.html" crc="4206534408" seo="true" mt="1540825839519" redirect="true"/>
   </folder>
   <file name="index.html" crc="4045452204" seo="true" mt="1540822303388" redirect="true"/>
 </manifest>
