@@ -5,9 +5,10 @@
     <lastmod>2018-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://esenkumba.github.io/phone/index.html"/>
   </url>
   <url>
-    <loc>http://esenkumba.github.io/images/3d%20visualizations.png</loc>
+    <loc>http://esenkumba.github.io/images/3d%20visualizations490x490.png</loc>
     <lastmod>2018-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -19,13 +20,43 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://esenkumba.github.io/images/3d%20branding.png</loc>
+    <loc>http://esenkumba.github.io/images/3d%20branding435x372.png</loc>
+    <lastmod>2018-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://esenkumba.github.io/images/turntable_web.gif</loc>
+    <lastmod>2018-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://esenkumba.github.io/images/rofile%20pic149x150.png</loc>
     <lastmod>2018-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://esenkumba.github.io/images/scroll%20gif.gif</loc>
+    <lastmod>2018-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://esenkumba.github.io/images/back2top.gif</loc>
+    <lastmod>2018-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://esenkumba.github.io/images/3d%20visualizations.png</loc>
+    <lastmod>2018-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://esenkumba.github.io/images/3d%20branding.png</loc>
     <lastmod>2018-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -38,18 +69,6 @@
   </url>
   <url>
     <loc>http://esenkumba.github.io/images/contact%20icons.png</loc>
-    <lastmod>2018-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://esenkumba.github.io/images/back2top.gif</loc>
-    <lastmod>2018-10-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://esenkumba.github.io/images/turntable_web.gif</loc>
     <lastmod>2018-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
