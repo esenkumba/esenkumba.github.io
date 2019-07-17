@@ -1,0 +1,159 @@
+/*
+CODED AND COMPILED IN NETBEANS IDE 8.2
+Author: MwamiAnim8
+email: mwamianim8@gmx.com
+*/
+/* 
+    Created on : May 3, 2019, 3:39:33 PM
+    Author     : Administrater
+*/
+
+body{
+    width: 540px;
+}
+#header{
+    height: 30px;
+}
+.mylogo .myName {
+    font-size: 21px;
+    line-height: 70px;
+    
+}
+#slideImg3{
+    top:-180px;
+    left: -5px;
+}
+@keyframes slide1{
+    0% {opacity:1; transform:translate(0px, -87px);}
+    20% { opacity: 1; }
+    25% { opacity: 0; transform:translate(0px, -95px);} 
+    95% { opacity: 0; transform:translate(0px, -85px);}
+    100% { opacity: 1; transform:translate(0px, -87px);}
+}
+@keyframes slide3{
+    0% {opacity:0;}
+    45% {opacity:0; transform:scale(1);}
+    50% {opacity:1;}
+    70% {opacity:1;}
+    75% {opacity:0; transform:scale(.93);}
+    100% {opacity:0;}
+}
+
+#slideshow-container{
+    width: 540px;
+    height: 270px;
+}
+#portfolio-container{
+    grid-template-columns: auto auto auto;
+    grid-gap:.5em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+}
+#project{
+    width:170px;
+    height:250px;
+}
+figure{
+    width:170px;
+    height:250px;
+}
+.eee{
+    font-size: 14px;
+    top:-1px;
+   }
+.mylogo img{
+    top:8px;
+}
+.topnav a.menu{
+    background-color: #2d2d2d;
+}
+.topnav a.menu:hover{
+    color: #ffcc00;
+    text-decoration: none;
+    transition: none;
+}
+.topnav{
+    top:35%;
+}
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    position:absolute;
+    top: 25px;
+    right: -15px;
+    width:50px;
+  }
+  
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+     background-color:#ffcc00;
+     color:white;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #content h1{
+      font-size: 24px;
+  }
+  #content h2{
+      font-size:18px;
+  }
+  #content p {
+    font-size: 14px;
+    line-height: 21px;
+}
+#content ul{
+    font-size:14px;
+}
+#footer{
+    font-size:14px;
+}
+#project figcaption{
+    opacity:1;
+    top:150px;
+    background-color: rgba(29,29,29,1);
+
+}
+#project #cta:after{
+  content: 'View project  \2192';
+  color:#ffcc00;
+  animation: arrow 3s linear infinite; 
+  font-size:12px;
+}
+#project-title{
+    top:7.5%;
+    font-size: 12px;
+}
+#project-title-long{
+    top:5%;
+    font-size: 12px;
+}
+.project h3{
+    font-size:13px;
+}
+#project figure img {
+    top:-17%;
+    object-fit: fit;
+}
+#cta{
+    margin: 0.3em 0;
+}
+
+#myWork-title p{
+    padding-top: 1em;
+}
+
+#fb-logo, #twitter-logo, #ig-logo{
+    width: 15px;
+    height: 15px;
+}
+#twitter-logo{
+    left: 3em;
+}
+.Back2work{
+    margin-left: 40%;
+    margin-right: 40%;
+}
