@@ -9,8 +9,8 @@ and open the template in the editor.
 */
 @font-face{
     font-family: "Roboto";
-    src: url("CSS/fonts/RobotoCondensed-Regular.tff");
-    src: url("CSS/fonts/Roboto-Regular.tff");
+    src: url("/fonts/RobotoCondensed-Regular.tff");
+    src: url("/fonts/Roboto-Regular.tff");
 }
 body{
     width:960px;
