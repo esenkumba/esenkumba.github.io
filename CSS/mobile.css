@@ -85,6 +85,8 @@ a{
 .topnav a.menu{
     font-size: 14px;
     background-color: #2d2d2d;
+	/* border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px; */
 }
 .topnav a.menu:hover{
     color: #ffcc00;
@@ -115,14 +117,19 @@ a{
   
 .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
-     background-color:#ffcc00;
-     color:white;
+     /* background-color:#ffcc00; */
+     color:#ffcc00;
   }
-  .topnav.responsive a {
-    float: none;
+  .topnav.responsive a.mylogo {
+    float: left;
     display: block;
-    text-align: left;
   }
+  .topnav.responsive a.menu {
+    float: right;
+    display: block;
+	width:40%;
+  }
+  
   
   #content h1{
       font-size: 24px;

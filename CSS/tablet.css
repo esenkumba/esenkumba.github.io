@@ -87,14 +87,19 @@ figure{
   
 .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
-     background-color:#ffcc00;
-     color:white;
+     /* background-color:#ffcc00; */
+     color:#ffcc00;
   }
-  .topnav.responsive a {
-    float: none;
+  .topnav.responsive a.mylogo {
+    float: left;
     display: block;
-    text-align: left;
   }
+  .topnav.responsive a.menu {
+    float: right;
+    display: block;
+	width:50%;
+  }
+  
   #content h1{
       font-size: 24px;
   }
