@@ -47,10 +47,10 @@ email: mwamianim8@gmx.com
                 <h1>Natura Yoghurt Packaging Designs</h1>
                 <p id="project-tag">2018 | Modo, Illustrator and Photoshop</p>
                 <p>Commissioned packaging artwork and layout design done for the delicious flavored and plain yoghurt range from Modern Dairy Burundi.</p>
-                <div id="project-img"><img src="Projects\natura-yog-pack\img1.jpg" alt=""></div>
-                <div id="project-img"><img src="Projects\natura-yog-pack\img2.jpg" alt=""></div>
-                <div id="project-img"><img src="Projects\natura-yog-pack\img3.jpg" alt=""></div>
-                <div id="project-img"><img src="Projects\natura-yog-pack\img4.jpg" alt=""></div>
+                <div id="project-img"><img id="click-img" src="Projects\natura-yog-pack\img1.jpg" alt=""></div>
+                <div id="project-img"><img id="click-img" src="Projects\natura-yog-pack\img2.jpg" alt=""></div>
+                <div id="project-img"><img id="click-img" src="Projects\natura-yog-pack\img3.jpg" alt=""></div>
+                <div id="project-img"><img id="click-img" src="Projects\natura-yog-pack\img4.jpg" alt=""></div>
                 <a href="/index.html" id="Back2work"><div class="Back2work"><img src="Imgs/back-icon.gif"></div></a>
             </div>
             <div id="footer">
@@ -79,5 +79,36 @@ email: mwamianim8@gmx.com
             }, 500);
             }(" Edwin Senkumba | Animator & 3D Artist " + "-"))
         </script>
+		
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+		  <span class="close">&times;</span>
+		  <img class="modal-content" id="img01">
+		  <div id="caption"></div>
+		</div>
+		
+		<script>
+		// Get the modal
+		var modal = document.getElementById("myModal");
+
+		// Get the image and insert it inside the modal - use its "alt" text as a caption
+		var img = document.getElementById("click-img");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() { 
+		  modal.style.display = "none";
+		}
+		</script>
+		
     </body>
 </html>
