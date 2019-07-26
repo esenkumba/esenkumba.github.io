@@ -66,6 +66,9 @@ figure{
 }
 .topnav a.menu{
     background-color: #2d2d2d;
+    color: #ffcc00;
+    text-decoration: none;
+    transition: none;
 }
 .topnav a.menu:hover{
     color: #ffcc00;
