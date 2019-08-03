@@ -92,7 +92,15 @@ a{
     transition: none;
     font-size: 14px;
 }
-  
+
+.topnav a.menu:hover{
+    transition: 0;
+    text-decoration: none;
+    color: #3d3d3d;
+    padding-top: 1.7em;
+    font-size:20px;
+    font-weight:1000;
+}
     
 }
 .topnav{
