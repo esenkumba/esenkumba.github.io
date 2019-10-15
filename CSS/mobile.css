@@ -53,7 +53,7 @@ a{
 #slideImg3{
     top:-305px;
     /*left: 20px;*/
-    object-fit: contain;
+    /*object-fit: contain;*/
 }
 
 @keyframes slide1{
@@ -65,10 +65,10 @@ a{
 }
 @keyframes slide3{
     0% {opacity:0;}
-    45% {opacity:0; transform:translate(0px, -100px);}
+    45% {opacity:0; transform:translate(0px, -50px);}
     50% {opacity:1;}
     70% {opacity:1;}
-    75% {opacity:0; transform:translate(0px, -320px);} /*transform:scale(1.4);*/
+    75% {opacity:0; transform:translate(0px, -120px);} /*transform:scale(1.4);*/
     100% {opacity:0;}
 }
 .eee{
