@@ -51,9 +51,7 @@ a{
 }
 
 #slideImg3{
-    top:-305px;
-    /*left: 20px;*/
-    /*object-fit: contain;*/
+    top:-200px;
 }
 
 @keyframes slide1{
