@@ -50,9 +50,9 @@ a{
     width: 100%;
 }
 
-#slideImg3{
+/* #slideImg3{
     top:-200px;
-}
+} */
 
 @keyframes slide1{
     0% {opacity:1; transform:translate(0px, -52px);}
