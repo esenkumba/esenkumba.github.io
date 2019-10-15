@@ -22,7 +22,7 @@ body{
 #slideImg3{
     top:-180px;
     left: -5px;
-	transform:scale(.9);
+	transform:scale(0.5);
 }
 @keyframes slide1{
     0% {opacity:1; transform:translate(0px, -87px);}
