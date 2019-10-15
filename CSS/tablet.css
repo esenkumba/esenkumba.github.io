@@ -20,8 +20,8 @@ body{
     
 }
 #slideImg3{
-    top:-180px;
-    left: -5px;
+    top:-50px;
+    height: 540PX;
 	transform:scale(0.5);
 }
 @keyframes slide1{
@@ -36,7 +36,7 @@ body{
     45% {opacity:0; transform:translate(0px, 0px);}
     50% {opacity:1;}
     70% {opacity:1;}
-    75% {opacity:0; transform:translate(0px, -320px);} /*transform:scale(1.4);*/
+    75% {opacity:0; transform:translate(0px, -150px);} /*transform:scale(1.4);*/
     100% {opacity:0;}
 }
 
