@@ -234,7 +234,7 @@ body{
     width:100%;
     position: relative;
     margin: 0;
-    display: fles;
+    display: flex;
     grid-template-columns: auto auto auto auto;
     grid-gap:1em;
     padding-top: .7em;
