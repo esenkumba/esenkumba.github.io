@@ -63,7 +63,9 @@ figure{
     top:-1px;
    }
 .mylogo img{
-    top:8px;
+	width: 48px;
+	height: 48px;
+    top:14px;
 }
 .topnav a.menu{
     background-color: #2d2d2d;
