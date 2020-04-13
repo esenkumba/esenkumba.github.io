@@ -1,3 +1,33 @@
 body{
     width: 720px;
 }
+.topnav a.menu{
+	font-size: 14px;
+    padding: 8px 160x;
+    padding-top: 3em;
+}
+.mylogo .myName {
+    font-size: 21px;
+    line-height: 4.9em;
+}
+#slideshow-container{
+    width: 720px;
+    height: 360px;
+}
+#portfolio-container{
+    
+    grid-template-columns: auto auto auto;
+    grid-gap:1em;
+    padding-top: .7em;
+    padding-bottom: .7em;
+
+}
+.mylogo img{
+    top:8px;
+}
+
+.topnav a.menu:hover{
+    
+	padding-top: 2.5em;
+    font-size: 16px;
+}
