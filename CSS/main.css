@@ -101,7 +101,7 @@ body{
     font-size: 18px;
     line-height: 30px;
 	text-align: justify;
-	text-justify: inner-word;
+	text-justify: inter-word;
 }
 #content i {
     color: #9d9d9d;
