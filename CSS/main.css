@@ -305,6 +305,12 @@ figure{
     60% {opacity:0;}
 	100% {opacity:0;}
 }
+
+.click-img{
+	z-index:0;
+	position:relative;
+	pointer-events:none;
+}
 .project figure{
     position: relative;
     overflow: hidden;
@@ -419,14 +425,14 @@ label {
 }
 
 
-.iframe-container{
+#iframe-container{
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
     height:0;
 }
 
-.iframe-container iframe{
+#iframe-container iframe{
     position: absolute;
     top:0;
     left:0;
