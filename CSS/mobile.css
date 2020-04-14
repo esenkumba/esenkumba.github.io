@@ -19,62 +19,8 @@ body{
     padding-bottom: 20px;
 }
 
-.mylogo .myName {
-    font-size: 14px;
-    line-height: 50px;
-    
-}
-#portfolio-wrapper{
-    
-    /*padding: .2em;*/
-}
-#slideshow-container{
-    width: 320px;
-    height: 160px;
-}
-#portfolio-container{
-    grid-template-columns: auto auto;
-    grid-gap:.5em;
-    padding-top: .3em;
-    padding-bottom: .3em;
-}
-#project{
-    width:150px;
-    height:210px;
-}
-figure{
-    width:150px;
-    height:210px;
-}
-a{
-    width: 100%;
-}
+/*------------------------------------- LOGO STYLING --------------------------------------*/
 
-#slideImg3{
-    top:-75;
-    height: 320px;
-}
-
-@keyframes slide1{
-    0% {opacity:1; transform:translate(0px, -52px);}
-    20% { opacity: 1; }
-    25% { opacity: 0; transform:translate(0px, -58px);} 
-    95% { opacity: 0; transform:translate(0px, -50px);}
-    100% { opacity: 1; transform:translate(0px, -52px);}
-}
-@keyframes slide3{
-    0% {opacity:0;}
-    45% {opacity:0; transform:translate(0px, -50px);}
-    50% {opacity:1;}
-    70% {opacity:1;}
-    75% {opacity:0; transform:translate(0px, -120px);} /*transform:scale(1.4);*/
-    100% {opacity:0;}
-}
-.eee{
-    font-size: 10px;
-    top:0;
-    padding-left:0.1em;
-   }
 .mylogo img{
     
     padding-right: 2px;
@@ -82,6 +28,17 @@ a{
     width:32px;
 	height:32px;
 }
+
+.mylogo .myName{
+	font-size: 1em;
+    line-height: 1em;
+}
+.eee{
+	font-size:.6em;
+	top:-0.05em;
+}
+
+/*------------------------------------- MENU STYLING --------------------------------------*/
 .topnav a.menu{
     font-size: 14px;
     background-color: #2d2d2d;
@@ -138,11 +95,60 @@ a{
 	width:40%;
   }
   
+
+
+/*----------------------------------- PORTFOLIO STYLING ------------------------------------*/
+#portfolio-wrapper{
+    
+    /*padding: .2em;*/
+}
+#slideshow-container{
+    width: 320px;
+    height: 160px;
+}
+#portfolio-container{
+    grid-template-columns: auto auto;
+    grid-gap:.3em;
+	padding:.3em;
+}
+.project{
+    width:150px;
+    height:210px;
+}
+figure{
+    width:150px;
+    height:210px;
+}
+a{
+    width: 100%;
+}
+
+#slideImg3{
+    top:-75;
+    height: 320px;
+}
+
+@keyframes slide1{
+    0% {opacity:1; transform:translate(0px, -52px);}
+    20% { opacity: 1; }
+    25% { opacity: 0; transform:translate(0px, -58px);} 
+    95% { opacity: 0; transform:translate(0px, -50px);}
+    100% { opacity: 1; transform:translate(0px, -52px);}
+}
+@keyframes slide3{
+    0% {opacity:0;}
+    45% {opacity:0; transform:translate(0px, -50px);}
+    50% {opacity:1;}
+    70% {opacity:1;}
+    75% {opacity:0; transform:translate(0px, -120px);} /*transform:scale(1.4);*/
+    100% {opacity:0;}
+}
+
   
-  #content h1{
+#content h1{
       font-size: 24px;
   }
-  #content h2{
+#content h2{
       font-size:18px;
   }
 
@@ -156,28 +162,29 @@ a{
 #footer{
     font-size:14px;
 }
-#project figcaption{
+
+.project figcaption{
     opacity:1;
     top:140px;
     background-color: rgba(29,29,29,1);
-
 }
-#project #cta:after{
+
+.project #cta:after{
   content: 'View project  \2192';
   color:#ffcc00;
   animation: arrow 3s linear infinite; 
   font-size:9px;
 }
-#project-title{
+.project-title{
     top:3.5%;
 }
-#project-title-long{
+.project-title-long{
     top:3%;
 }
-#project h3{
+.project h3{
     font-size:10px;
 }
-#project figure img {
+.project figure img {
     top:-15%;
     /*height: 100%;*/
 }
@@ -230,4 +237,17 @@ a{
 .Back2work img{
     width: 50px;
     height: 50px;
+}
+
+#myBtnContainer{
+}
+
+.btn{
+	padding: 6px 8px;
+	font-size:8px;
+	border-radius: 4px 4px 0 0;
+}
+
+.btn.active{	
+	border-radius: 4px 4px 0 0;
 }

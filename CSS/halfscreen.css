@@ -1,14 +1,34 @@
 body{
     width: 720px;
 }
-.topnav a.menu{
-	font-size: 14px;
-    padding: 8px 10px;
-    padding-top: 3em;
+/*------------------------------------- LOGO STYLING --------------------------------------*/
+.mylogo img{
+	width: 54px;
+	height: 54px;
+    top: 16px;
 }
-.mylogo .myName {
-    font-size: 21px;
-    line-height: 4.9em;
+
+/*------------------------------------- MENU STYLING --------------------------------------*/
+.topnav a.menu{
+	font-size: 15px;
+    padding: 8px 10px;
+    padding-top: 2.45em;
+}
+.topnav a.menu:hover{
+    
+	padding-top: 2em;
+    font-size: 17px;
+}
+
+/*--------------------------- PORTFOLIO STYLING --------------------------------*/
+.btn{
+	font-size: 12px;
+	border-radius: 7px 7px 0 0;
+}
+
+.btn.active{
+	border-radius: 7px 7px 0 0;
+	
 }
 #slideshow-container{
     width: 720px;
@@ -18,18 +38,7 @@ body{
     
     grid-template-columns: auto auto auto;
     grid-gap:1em;
-    padding-top: .7em;
-    padding-bottom: .7em;
+    padding: .7em;
 
 }
-.mylogo img{
-	width: 48px;
-	height: 48px;
-    top: 16px;
-}
 
-.topnav a.menu:hover{
-    
-	padding-top: 2.5em;
-    font-size: 16px;
-}

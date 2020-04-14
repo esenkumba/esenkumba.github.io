@@ -20,8 +20,8 @@ email: mwamianim8@gmx.com
         <title>Edwin Senkumba | Animator & 3D Artist</title>
 		<script src="https://kit.fontawesome.com/ee0262a05a.js"></script>
         <link rel="stylesheet" type="text/css" href="CSS/main.css"/>
-		<link rel="stylesheet" type="text/css" media="screen and (max-width:960px) and (min-width:720px)"  href="CSS/halfscreen.css"/>
-        <link rel="stylesheet" type="text/css" media="screen and (max-width:720px) and (min-width:540px)"  href="CSS/tablet.css"/>
+		<link rel="stylesheet" type="text/css" media="screen and (max-width:960px) and (min-width:800px)"  href="CSS/halfscreen.css"/>
+        <link rel="stylesheet" type="text/css" media="screen and (max-width:800px) and (min-width:540px)"  href="CSS/tablet.css"/>
         <link rel="stylesheet" type="text/css" media="(max-width:540px)" href="CSS/mobile.css"/>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -55,119 +55,156 @@ email: mwamianim8@gmx.com
                 <div id="myWork-title">
                     <p>My portfolio</p>
                 </div>
+				
+				<div id="myBtnContainer">
+				  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+				  <button class="btn" onclick="filterSelection('paid')"> Comissioned </button>
+				  <button class="btn" onclick="filterSelection('mine')"> Personal Projects</button>
+				</div>
+				
                 <div id="portfolio-wrapper">
                     <div id="portfolio-container">
-                        <a id="project" href="/natura-yoghurt-packaging.html">
-                                    <figure>
-                                            <img src="Projects/natura-yog-pack/projectImg.jpg" alt="">
-                                            <figcaption>
-                                                    <div id="project-title">
-                                                            <h3>Natura Yoghurt<br>Packaging</h3>
-                                                            <p id="cta"></p>
-                                                    </div>
-                                            </figcaption>
-                                    </figure>
-                        </a>
-                        <a id="project" href="/jesa-butter-pak.html">
-                                    <figure>
-                                            <img src="Projects/jesa-butter-pak/projectImg.jpg" alt="">
-                                            <figcaption>
-                                                    <div id="project-title">
-                                                            <h3>JESA Butter<br>Packaging</h3>
-                                                            <p id="cta"></p>
-                                                    </div>
-                                            </figcaption>
-                                    </figure>
-                        </a>
-                        <a id="project" href="/ruby-anniv-anim.html">
-                                    <figure>
-                                            <img src="Projects/ruby-anniv-anim/projectImg.jpg" alt="">
-                                            <figcaption>
-                                                    <div id="project-title">
-                                                            <h3>Ruby Anniversary<br>Animation</h3>
-                                                            <p id="cta"></p>
-                                                    </div>
-                                            </figcaption>
-                                    </figure>
-                        </a>
-                        <a id="project" href="/heisenberg-sculpt.html">
-                                    <figure>
-                                            <img src="Projects/heisenberg-sculpt/projectImg.jpg" alt="">
-                                            <figcaption>
-                                                    <div id="project-title">
-                                                            <h3>Heisenberg<br>Sculpt</h3>
-                                                            <p id="cta"></p>
-                                                    </div>
-                                            </figcaption>
-                                    </figure>
-                        </a>
-                        <a id="project" href="/jesa-fino-visual.html">
-                                    <figure>
-                                            <img src="Projects/jesa-fino-visual/projectImg.jpg" alt="">
-                                            <figcaption>
-                                                    <div id="project-title">
-                                                            <h3>JESA Tetra Fino<br>Visualization</h3>
-                                                            <p id="cta"></p>
-                                                    </div>
-                                            </figcaption>
-                                    </figure>
-                        </a>
-                        <a id="project" href="/night-king-sculpt.html">
-                                    <figure>
-                                            <img src="Projects/night-king-sculpt/projectImg.jpg" alt="">
-                                            <figcaption>
-                                                    <div id="project-title">
-                                                            <h3>Night King<br>Sculpt</h3>
-                                                            <p id="cta"></p>
-                                                    </div>
-                                            </figcaption>
-                                    </figure>
-                        </a>
-                        <a id="project" href="/intimate-war-anim.html">
-                                    <figure>
-                                            <img src="Projects/intimate-war-anim/projectImg.jpg" alt="">
-                                            <figcaption>
-                                                    <div id="project-title-long">
-                                                            <h3>Intimate War<br>Animation<br>(Official Music Video)</h3>
-                                                            <p id="cta"></p>
-                                                    </div>
-                                            </figcaption>
-                                    </figure>
-                        </a>
-                        <a id="project" href="/ubl-batt-visual.html">
-                                    <figure>
-                                            <img src="Projects/ubl-batt-visual/projectImg.jpg" alt="">
-                                            <figcaption>
-                                                    <div id="project-title">
-                                                            <h3>UBL Maintenance Free<br>Visualization</h3>
-                                                            <p id="cta"></p>
-                                                    </div>
-                                            </figcaption>
-                                    </figure>
-                        </a>
-                        <a id="project" href="/jesa-tropdel-pak.html">
-                                    <figure>
-                                            <img src="Projects\jesa-tropDel-pack\projectImg.jpg" alt="">
-                                            <figcaption>
-                                                    <div id="project-title">
-                                                            <h3>JESA Tropical Delite<br>Packaging</h3>
-                                                            <p id="cta"></p>
-                                                    </div>
-                                            </figcaption>
-                                    </figure>
-                        </a>
-                        <a id="project" href="/stanchart-salo-anim.html">
-                                    <figure>
-                                            <img src="Projects\stanchart-salo-anim\projectImg.jpg" alt="">
-                                            <figcaption>
-                                                    <div id="project-title">
-                                                            <h3>Standard Chartered<br>TVC Animation</h3>
-                                                            <p id="cta"></p>
-                                                    </div>
-                                            </figcaption>
-                                    </figure>
-                        </a>
-
+					
+                        <div class="project paid">
+							<a  href="/natura-yoghurt-packaging.html">
+										<figure>
+												<img src="Projects/natura-yog-pack/projectImg.jpg" alt="">
+												<figcaption>
+														<div id="project-title">
+																<h3>Natura Yoghurt<br>Packaging</h3>
+																<p id="cta"></p>
+														</div>
+												</figcaption>
+										</figure>
+							</a>
+                        </div>
+						
+						<div class="project mine">
+							<a  href="/night-king-sculpt.html">
+										<figure>
+												<img src="Projects/night-king-sculpt/projectImg.jpg" alt="">
+												<figcaption>
+														<div id="project-title">
+																<h3>Night King<br>3D Sculpt</h3>
+																<p id="cta"></p>
+														</div>
+												</figcaption>
+										</figure>
+							</a>
+                        </div>
+						
+						<div class="project paid">
+							<a  href="/jesa-tropdel-pak.html">
+										<figure>
+												<img src="Projects/jesa-tropDel-pack/projectImg.jpg" alt="">
+												<figcaption>
+														<div id="project-title">
+																<h3>JESA Tropical<br>Delite Packaging</h3>
+																<p id="cta"></p>
+														</div>
+												</figcaption>
+										</figure>
+							</a>
+                        </div>
+						
+						<div class="project paid">
+							<a  href="/stanchart-salo-anim.html">
+										<figure>
+												<img src="Projects/stanchart-salo-anim/projectImg.jpg" alt="">
+												<figcaption>
+														<div id="project-title">
+																<h3>Standard Chartered<br>Bank Animation</h3>
+																<p id="cta"></p>
+														</div>
+												</figcaption>
+										</figure>
+							</a>
+                        </div>
+						
+						<div class="project mine">
+							<a  href="/heisenberg-sculpt.html">
+										<figure>
+												<img src="Projects/heisenberg-sculpt/projectImg.jpg" alt="">
+												<figcaption>
+														<div id="project-title">
+																<h3>Heisenberg<br>3D Sculpt</h3>
+																<p id="cta"></p>
+														</div>
+												</figcaption>
+										</figure>
+							</a>
+                        </div>
+						
+						<div class="project paid">
+							<a  href="/intimate-war-anim.html">
+										<figure>
+												<img src="Projects/intimate-war-anim/projectImg.jpg" alt="">
+												<figcaption>
+														<div id="project-title">
+																<h3>Music Video<br>Animation</h3>
+																<p id="cta"></p>
+														</div>
+												</figcaption>
+										</figure>
+							</a>
+                        </div>
+						
+						<div class="project paid">
+							<a  href="/jesa-butter-pak.html">
+										<figure>
+												<img src="Projects/jesa-butter-pak/projectImg.jpg" alt="">
+												<figcaption>
+														<div id="project-title">
+																<h3>JESA Butter<br>Packaging</h3>
+																<p id="cta"></p>
+														</div>
+												</figcaption>
+										</figure>
+							</a>
+                        </div>
+						
+						<div class="project paid">
+							<a  href="/ubl-batt-visual.html">
+										<figure>
+												<img src="Projects/ubl-batt-visual/projectImg.jpg" alt="">
+												<figcaption>
+														<div id="project-title">
+																<h3>UBL MF Battery<br>Visualization</h3>
+																<p id="cta"></p>
+														</div>
+												</figcaption>
+										</figure>
+							</a>
+                        </div>
+						
+						<div class="project paid">
+							<a  href="/jesa-fino-visual.html">
+										<figure>
+												<img src="Projects/jesa-fino-visual/projectImg.jpg" alt="">
+												<figcaption>
+														<div id="project-title">
+																<h3>JESA Tetrafino<br>Visualization</h3>
+																<p id="cta"></p>
+														</div>
+												</figcaption>
+										</figure>
+							</a>
+                        </div>
+						
+						<div class="project paid">
+							<a  href="/ruby-anniv-anim.html">
+										<figure>
+												<img src="Projects/ruby-anniv-anim/projectImg.jpg" alt="">
+												<figcaption>
+														<div id="project-title">
+																<h3>Event<br>Animation</h3>
+																<p id="cta"></p>
+														</div>
+												</figcaption>
+										</figure>
+							</a>
+                        </div>
+						
                     </div>
                 </div>
 				
@@ -178,7 +215,7 @@ email: mwamianim8@gmx.com
 				
 
 				
-                Edwin Senkumba &#00169; 2019
+                Copyright &#00169; <script>document.write(new Date().getFullYear())</script> Edwin Senkumba, All Rights Reserved
             </div>
         </div>
         
@@ -201,5 +238,52 @@ email: mwamianim8@gmx.com
             }, 500);
             }(" Edwin Senkumba | Animator & 3D Artist " + "-"))
         </script>
+		
+		<script>
+			filterSelection("all")
+			function filterSelection(c) {
+			  var x, i;
+			  x = document.getElementsByClassName("project");
+			  if (c == "all") c = "";
+			  for (i = 0; i < x.length; i++) {
+				w3RemoveClass(x[i], "show");
+				if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+			  }
+			}
+
+			function w3AddClass(element, name) {
+			  var i, arr1, arr2;
+			  arr1 = element.className.split(" ");
+			  arr2 = name.split(" ");
+			  for (i = 0; i < arr2.length; i++) {
+				if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+			  }
+			}
+
+			function w3RemoveClass(element, name) {
+			  var i, arr1, arr2;
+			  arr1 = element.className.split(" ");
+			  arr2 = name.split(" ");
+			  for (i = 0; i < arr2.length; i++) {
+				while (arr1.indexOf(arr2[i]) > -1) {
+				  arr1.splice(arr1.indexOf(arr2[i]), 1);     
+				}
+			  }
+			  element.className = arr1.join(" ");
+			}
+
+			// Add active class to the current button (highlight it)
+			var btnContainer = document.getElementById("myBtnContainer");
+			var btns = btnContainer.getElementsByClassName("btn");
+			for (var i = 0; i < btns.length; i++) {
+			  btns[i].addEventListener("click", function(){
+				var current = document.getElementsByClassName("active");
+				current[0].className = current[0].className.replace(" active", "");
+				this.className += " active";
+			  });
+			}
+		</script>
+
+
     </body>
 </html>
