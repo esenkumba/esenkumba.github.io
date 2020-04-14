@@ -146,6 +146,7 @@ body{
     clip: rect(0,960px,480px,0);
     border-radius: 5px;
     overflow: hidden;
+	pointer-events: none;
 }
 
 #slideshow-container:hover{
