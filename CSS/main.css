@@ -149,67 +149,14 @@ body{
 	pointer-events: none;
 }
 
+#vid{
+	pointer-events:none;
+}
+
 #slideshow-container:hover{
     cursor: none;
 }
 
-#slideImg1,#slideImg2,#slideImg3,#slideImg4{
-    width: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0; left: 0;
-}
-
-#slideImg1{
-    z-index: 4;
-    animation: slide1 30s linear infinite;
-}
-#slideImg2{
-    z-index: 3;
-    animation: slide2 30s linear infinite;
-}
-#slideImg3{
-    top:0px;
-    z-index: 2;
-    height: 960px;
-    animation: slide3 30s linear infinite;
-}
-#slideImg4{
-    z-index: 1;
-    animation: slide4 30s linear infinite;
-}
-
-@keyframes slide1{
-    0% {opacity:1; transform:translate(0px, -155px);}
-    20% { opacity: 1;}
-    25% { opacity: 0; transform:translate(0px, -165px);} 
-    95% { opacity: 0; transform:translate(0px, -150px);}
-    100% { opacity: 1; transform:translate(0px, -155px);}
-}
-
-@keyframes slide2{
-    0% {opacity:0;}
-    20% {opacity: 0;}
-    25% {opacity: 1;}
-    45% {opacity: 1;}
-    50% {opacity: 0;}
-    100% {opacity: 0;}
-}
-
-@keyframes slide3{
-    0% {opacity:0;}
-    45% {opacity:0; transform:translate(0px, -180px);}
-    50% {opacity:1;}
-    70% {opacity:1;}
-    75% {opacity:0; transform:translate(0px, -320px);} /*transform:scale(1.4);*/
-    100% {opacity:0;}
-}
-
-@keyframes slide4{
-    0% {opacity:0;}
-    70% {opacity: 0;}
-    75% {opacity: 1;}
-    100% {opacity: 1;}
     
 }
 #myWork-title{

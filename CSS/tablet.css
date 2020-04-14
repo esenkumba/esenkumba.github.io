@@ -69,26 +69,6 @@ body{
   
   
  /*-------------------------------------PORTFOLIO STYLING----------------------------------------*/
-#slideImg3{
-    top:-50px;
-    height: 540PX;
-	transform:scale(0.5);
-}
-@keyframes slide1{
-    0% {opacity:1; transform:translate(0px, -87px);}
-    20% { opacity: 1; }
-    25% { opacity: 0; transform:translate(0px, -95px);} 
-    95% { opacity: 0; transform:translate(0px, -85px);}
-    100% { opacity: 1; transform:translate(0px, -87px);}
-}
-@keyframes slide3{
-    0% {opacity:0;}
-    45% {opacity:0; transform:translate(0px, 0px);}
-    50% {opacity:1;}
-    70% {opacity:1;}
-    75% {opacity:0; transform:translate(0px, -150px);} /*transform:scale(1.4);*/
-    100% {opacity:0;}
-}
 
 #slideshow-container{
     width: 540px;

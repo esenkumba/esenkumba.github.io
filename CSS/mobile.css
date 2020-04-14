@@ -123,26 +123,6 @@ a{
     width: 100%;
 }
 
-#slideImg3{
-    top:-75;
-    height: 320px;
-}
-
-@keyframes slide1{
-    0% {opacity:1; transform:translate(0px, -52px);}
-    20% { opacity: 1; }
-    25% { opacity: 0; transform:translate(0px, -58px);} 
-    95% { opacity: 0; transform:translate(0px, -50px);}
-    100% { opacity: 1; transform:translate(0px, -52px);}
-}
-@keyframes slide3{
-    0% {opacity:0;}
-    45% {opacity:0; transform:translate(0px, -50px);}
-    50% {opacity:1;}
-    70% {opacity:1;}
-    75% {opacity:0; transform:translate(0px, -120px);} /*transform:scale(1.4);*/
-    100% {opacity:0;}
-}
 
   
 #content h1{

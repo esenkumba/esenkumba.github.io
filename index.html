@@ -47,10 +47,12 @@ email: mwamianim8@gmx.com
             </div>
             <div id="content">
                 <div id="slideshow-container">
-                    <img id="slideImg1" src="Imgs/slide-img1.jpg" alt="">
-                    <img id="slideImg2" src="Imgs/slide-img2.gif" alt="">
-                    <img id="slideImg3" src="Imgs/slide-img3.jpg" alt="">
-                    <img id="slideImg4" src="Imgs/slide-img4.gif" alt="">
+					<video id="vid" autoplay muted loop width="100%">
+						<source src="Imgs/slideshow-looper0001-0600.webm" type="video/webm">
+					</video>
+					<script>
+						document.getElementById('vid').play();
+					</script>
                 </div> 
                 <div id="myWork-title">
                     <p>My portfolio</p>
