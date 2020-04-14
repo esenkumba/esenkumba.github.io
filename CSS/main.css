@@ -352,7 +352,8 @@ label {
     font-style: italic;
 }
 
-.project-img img{
+
+#project-img img{
     width: 100%;
     padding-bottom: 1em;
 }
