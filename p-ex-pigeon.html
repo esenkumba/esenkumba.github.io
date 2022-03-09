@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="Imgs/logo_icon.ico"/>
+        <title>Edwin Senkumba | Animator & 3D Artist</title>
+        <script src="https://kit.fontawesome.com/ee0262a05a.js"></script>
+        <link rel="stylesheet" type="text/css" href="CSS/main.css"/>
+		<link rel="stylesheet" type="text/css" media="screen and (max-width:960px) and (min-width:720px)"  href="CSS/halfscreen.css"/>
+        <link rel="stylesheet" type="text/css" media="screen and (max-width:720px) and (min-width:540px)"  href="CSS/tablet.css"/>
+        <link rel="stylesheet" type="text/css" media="(max-width:540px)" href="CSS/mobile.css"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="main-container">
+            <div id="header">
+                <div class="topnav" id="myTopnav">
+                    <a href="/index.html" class="mylogo">
+                        <img src="Imgs/logo_icon.ico" alt="">
+                        <b class="myName">Edwin Senkumba |</b>
+                        <b class="eee">
+                            <b class="fff">Animator</b><b class="qqq"> &</b> <b class="ggg">3D</b> <b class="qqq">Artist</b>
+                        </b>
+                    </a>
+                    <a href="/contact.html" class="menu">Contact</a>
+                    <a href="/FAQ.html" class="menu">F.A.Q</a>
+                    <a href="/about.html" class="menu">About</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="content">
+                <h1>Permanently Exhasuted Pigeon Sculpt</h1>
+                <p id="project-tag">2022 | Blender and Affinity Photo</p>
+                <p>A personal project modeled, sculpted and rendered in Blender 3.0.</p>
+                <p>The idea is based off an uncredited illustration I saw on Instagram. The feathers were the most technically challenging, I tried particle systems but at the moment I'm still lacking when it comes to using them.</p>
+                <p>I opted for the traditional digital sculptors route and sculpted them in by hand both on the mesh topology and texture maps.</p>
+                <p>I was really delightied when this artwork was featured on the weekly Blender Nation's <a href="https://www.blendernation.com/2022/03/04/best-of-blender-artists-2022-09/" target="_blank"> featured page!</a></p>
+                <p>Check out my Blender Artist's <a href="https://blenderartists.org/u/mwamianim8/activity/portfolio" target="_blank">page for more</a></p>
+                <div id="project-img"><div class="click-img"><img src="Projects/p-ex-pigeon/1.jpg" alt=""></div></div>
+                <div id="project-img"><div class="click-img"><img src="Projects/p-ex-pigeon/2.jpg" alt=""></div></div>
+                <div id="project-img"><div class="click-img"><img src="Projects/p-ex-pigeon/3.jpg" alt=""></div></div>
+                <a href="/index.html" id="Back2work"><div class="Back2work"><img src="Imgs/back-icon.gif"></div></a>
+            </div>
+            <div id="footer">
+                <a href="https://www.instagram.com/mwami_anim8/" target="_blank"><img id="ig-logo" src="Imgs/ig-logo.png" alt=""></a>
+                <a href="https://twitter.com/MwamiAnim8" target="_blank"><img id="twitter-logo" src="Imgs/twitter-logo.png" alt=""></a>
+                Copyright &#00169; <script>document.write(new Date().getFullYear())</script> Edwin Senkumba, All Rights Reserved
+            </div>
+        </div>
+
+        <script>
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+        x.className += " responsive";
+        } else {
+                x.className = "topnav";
+               }
+            }
+        </script>
+
+        <!-- <script>
+            (function titleScroller(text) {
+            document.title = text;
+            setTimeout(function () {
+            titleScroller(text.substr(1) + text.substr(0, 1));
+            }, 500);
+            }(" Edwin Senkumba | Animator & 3D Artist " + "-"))
+        </script> -->
+
+    </body>
+</html>
