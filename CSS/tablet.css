@@ -3,7 +3,7 @@ CODED AND COMPILED IN NETBEANS IDE 8.2
 Author: MwamiAnim8
 email: mwamianim8@gmx.com
 */
-/* 
+/*
     Created on : May 3, 2019, 3:39:33 PM
     Author     : Administrater
 */
@@ -17,11 +17,11 @@ body{
 
 /*------------------------------------- LOGO STYLING --------------------------------------*/
 
-.mylogo img{
+/* .mylogo img{
 	width: 48px;
 	height: 48px;
     top:14px;
-}
+} */
 .topnav a.menu{
     background-color: #2d2d2d;
     color: #ffcc00;
@@ -31,6 +31,15 @@ body{
 .mylogo .myName{
 	font-size: 1.5em;
     line-height: 1.5em;
+}
+.mylogo video{
+  width:82px;
+  height:82px;
+}
+.myName{
+  width: 180px;
+  position: absolute;
+  top:16px;
 }
 .eee{
 	font-size:1em;
@@ -51,7 +60,7 @@ body{
     width:50px;
 	height:50px;
   }
-  
+
 .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
      /* background-color:#ffcc00; */
@@ -66,8 +75,8 @@ body{
     display: block;
 	width:50%;
   }
-  
-  
+
+
  /*-------------------------------------PORTFOLIO STYLING----------------------------------------*/
 
 #slideshow-container{
@@ -114,7 +123,7 @@ figure{
 .project #cta:after{
   content: 'View project  \2192';
   color:#ffcc00;
-  animation: arrow 3s linear infinite; 
+  animation: arrow 3s linear infinite;
   font-size:12px;
 }
 .project-title{
@@ -157,4 +166,3 @@ figure{
 .btn{
 	font-size: 12px;
 }
-

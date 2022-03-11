@@ -2,22 +2,30 @@ body{
     width: 720px;
 }
 /*------------------------------------- LOGO STYLING --------------------------------------*/
-.mylogo img{
+/* .mylogo img{
 	width: 54px;
 	height: 54px;
     top: 16px;
+} */
+.mylogo video{
+  width:96px;
+  height:96px;
 }
-
+.myName{
+  width: 220px;
+  position: absolute;
+  top:20px;
+}
 /*------------------------------------- MENU STYLING --------------------------------------*/
 .topnav a.menu{
-	font-size: 15px;
+	font-size: 12px;
     padding: 8px 10px;
     padding-top: 2.45em;
 }
 .topnav a.menu:hover{
-    
+
 	padding-top: 2em;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 /*--------------------------- PORTFOLIO STYLING --------------------------------*/
@@ -28,17 +36,16 @@ body{
 
 .btn.active{
 	border-radius: 7px 7px 0 0;
-	
+
 }
 #slideshow-container{
     width: 720px;
     height: 360px;
 }
 #portfolio-container{
-    
+
     grid-template-columns: auto auto auto;
     grid-gap:1em;
     padding: .7em;
 
 }
-
