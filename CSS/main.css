@@ -57,6 +57,7 @@ body{
 .mylogo video{
   width:128px;
   height:128px;
+  z-index: 0;
 }
 
 
@@ -67,7 +68,7 @@ body{
     overflow: hidden;
     text-align: center;
     margin: auto;
-    z-index:999;
+    z-index:9;
     position:relative;
     top:50%;
 }
