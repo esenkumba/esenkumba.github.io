@@ -81,7 +81,7 @@ body{
 
 #slideshow-container{
     width: 540px;
-    height: 270px;
+    height: 303.75px;
 }
 #portfolio-container{
     grid-template-columns: auto auto auto;
