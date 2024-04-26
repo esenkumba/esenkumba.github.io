@@ -55,8 +55,9 @@ body{
   top:28px;
 }
 .mylogo video{
-  width:128px;
-  height:128px;
+  padding-top: 12px;
+  width:96px;
+  height:96px;
   z-index: 0;
 }
 

@@ -8,8 +8,9 @@ body{
     top: 16px;
 } */
 .mylogo video{
-  width:96px;
-  height:96px;
+  padding-top: 12px;
+  width:80px;
+  height:80px;
 }
 .myName{
   width: 220px;
