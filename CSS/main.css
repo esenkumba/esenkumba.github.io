@@ -192,9 +192,9 @@ body{
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap:1em;
-	padding: .7em;
+	  padding: .7em;
     justify-content: left;
-	overflow:hidden;
+	  overflow:hidden;
 
 }
 .project{
