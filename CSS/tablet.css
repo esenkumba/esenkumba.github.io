@@ -15,6 +15,9 @@ body{
     height: 30px;
 }
 
+iframe{
+  width: 540px;
+  height:304px;
 /*------------------------------------- LOGO STYLING --------------------------------------*/
 
 /* .mylogo img{
